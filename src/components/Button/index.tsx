@@ -1,7 +1,7 @@
 import { IButtonComponent } from "./interfaces";
 
 const Button = ({ children }: IButtonComponent) => {
-  return <button></button>;
+  return <button>{children}</button>;
 };
 
 export { Button };
